@@ -1,0 +1,13 @@
+{
+  "name": "JCrew",
+  "manifest_version": 2,
+  "version": "1",
+  "content_scripts": [
+    {
+      "matches": ["https://factory.jcrew.com/*", "https://www.jcrew.com/*"],
+      "js": ["auto-size.js"]
+    }
+  ], "permissions": [
+    "tabs", "https://factory.jcrew.com/*", "https://www.jcrew.com/*"
+  ]
+}
